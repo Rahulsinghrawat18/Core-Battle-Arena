@@ -52,7 +52,7 @@ A player can create room and get the room code which can then be shared with the
 ![Screenshot (7)](https://github.com/user-attachments/assets/ec979c6b-c96e-4b95-a908-644ffd097799)
 
 ## Connect Wallet and Skins
-A player can choose to connect their wallet. The code is set up to connect to shape sepolia since the contract was deployed on that. Although it is also set to ask permission to add the testnet if not present in user's metamask, iff facing issue, make sure to add and switch to shape sepolia testnet before connecting wallet. Else if connected wallet but not on shape sepolia, you will be able to see current skins and the ones for collab but will be unable to buy the skins through smart contract.
+A player can choose to connect their wallet. The code is set up to connect to Core Testnet since the contract was deployed on that. Although it is also set to ask permission to add the testnet if not present in user's metamask, if facing issue, make sure to add and switch to Core testnet before connecting wallet. Else if connected wallet but not on Core Testnet, you will be able to see current skins and the ones for collab but will be unable to buy the skins through smart contract.
 
 ### Current Skins
 Shows the current equipped skins of the player. Go to lobby, reload page, and come back if you want to change to default skins after changing the skins.
