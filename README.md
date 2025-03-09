@@ -4,7 +4,7 @@ Core's Battle Arena is a strategy-based board game where two players, each contr
 Check out the live deployment here: [Core Battle Arena!](https://core-battle-arena.vercel.app/) 🚀
 
 ## Demo-Video
-https://www.youtube.com/
+https://www.youtube.com/watch?v=EQ0BECZaLW0
 
 ## Key Features
 * ####  2-Player Gameplay
@@ -33,6 +33,33 @@ The goal is to strategically maneuver your pieces and place one on your opponent
 * ####  Backend: Node.js, Express.js, Socket.io
 * ####  Blockchain: Foundry ( Contract deployed on Core Testnet )
 * ####  Smart contract Connection: Ethers.js
+
+## Installation & Setup
+
+### Prerequisites
+- Node.js
+- npm or yarn
+- Metamask or other Web3 wallet configured for Core Chain
+
+### Client Setup
+```bash
+cd client
+npm i
+npm run dev
+```
+
+### Server Setup
+```bash
+cd server
+node server.js
+```
+
+### Core Chain Configuration for Metamask
+- **Network Name**: Core Blockchain Testnet
+- **RPC URL**: https://rpc.test2.btcs.network/
+- **Chain ID**: 1114
+- **Currency Symbol**: CORE
+- **Block Explorer URL**: https://scan.test2.btcs.network/
 
 ## The Game
 
